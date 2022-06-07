@@ -21,4 +21,10 @@ main , #evaluation-form {
   height: 500px;
 }
 
-/* Atualizado */
+.fullname , .email-house {
+  display: flex;
+}
+
+.form-content {
+  width: 100%;
+}
