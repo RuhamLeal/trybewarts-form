@@ -18,12 +18,14 @@
       <button id="botao-entrar" >Entrar</button>
     </form>
   </header>
+
   <main>
     <form action="" id="evaluation-form">
       <div class="fullname">
         <input type="text" id="input-name" class="form-content" placeholder="Nome">
         <input type="text" id="input-lastname" class="form-content" placeholder="Sobrenome">
       </div>
+  
       <div class="email-house">
         <input type="email" id="input-email" class="form-content" placeholder="Email">
         <select name="" id="house" class="form-content">
@@ -33,12 +35,37 @@
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
       </div>
+
       <label id="label-family" for="">Qual sua família?</label>
       <input type="radio" name="family" value="Frontend"> Frontend
       <input type="radio" name="family" value="Backend"> Backend
       <input type="radio" name="family" value="FullStack"> FullStack
+
+      <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
+      <input type="checkbox" class="subject" value="HoFs" name="" id=""> HoFs
+      <input type="checkbox" class="subject" value="Jest" name="" id=""> Jest
+      <input type="checkbox" class="subject" value="Promises" name="" id=""> Promises
+      <input type="checkbox" class="subject" value="React" name="" id=""> React
+      <input type="checkbox" class="subject" value="SQL" name="" id=""> SQL
+      <input type="checkbox" class="subject" value="Python" name="" id=""> Python
+
+      <label id="label-rate">Como você avalia a Trybewarts?</label>
+      <div class="radios-1to10">
+        <input name="rate" type="radio" value="1">1
+        <input name="rate" type="radio" value="2">2
+        <input name="rate" type="radio" value="3">3
+        <input name="rate" type="radio" value="4">4
+        <input name="rate" type="radio" value="5">5
+        <input name="rate" type="radio" value="6">6
+        <input name="rate" type="radio" value="7">7
+        <input name="rate" type="radio" value="8">8
+        <input name="rate" type="radio" value="9">9
+        <input name="rate" type="radio" value="10">10
+      </div>
     </form>
+
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+    
   </main>
   <script src="script.js"></script>
 </body>
